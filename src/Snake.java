@@ -6,6 +6,15 @@ public class Snake {
 	Node tail = null;
 	int size = 0;
 	
+	public Snake (Node node) {
+		head = node;
+		tail = node;
+		size = 1;
+	}
+	
+	public void addToTail (Node node) {
+		
+	}
 	
 	private class Node {
 		int w = Yard.BLOCK_SIZE;

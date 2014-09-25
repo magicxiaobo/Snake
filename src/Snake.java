@@ -1,5 +1,7 @@
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Rectangle;
+import java.awt.event.KeyEvent;
 
 public class Snake {
 	Node head = null;

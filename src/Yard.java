@@ -1,3 +1,4 @@
+
 import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -9,7 +10,7 @@ public class Yard extends Frame {
 	public static final int COLS = 100;
 	public static final int BLOCK_SIZE = 5;
 	
-	//image 
+	//image offScreenImage = null;
 	
 	public void launch() {
 		this.setLocation(200, 200);

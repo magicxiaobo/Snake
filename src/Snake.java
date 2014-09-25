@@ -12,7 +12,7 @@ public class Snake {
 		size = 1;
 	}
 	
-	public void addToTail (Node node) {
+	public void addToTail () {
 		
 	}
 	
@@ -20,10 +20,13 @@ public class Snake {
 		int w = Yard.BLOCK_SIZE;
 		int h = Yard.BLOCK_SIZE;
 		int row, col;
+		Dir dir = Dir.L;
+		Node next;
 		
-		Node(int row, int col) {
+		Node(int row, int col, Dir dir) {
 			this.row = row;
 			this.col = col;
+			this.dir = dir;
 		}
 		
 		void draw(Graphics g) {

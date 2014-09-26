@@ -36,6 +36,7 @@ public class Snake {
 			g.setColor(Color.BLACK);
 			g.fillRect(Yard.BLOCK_SIZE * row, Yard.BLOCK_SIZE * col, w, h);
 			g.setColor(c);
+			
 		}
 	}
 	

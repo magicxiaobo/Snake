@@ -32,6 +32,7 @@ public class Snake {
 		}
 		tail.next = node;
 		tail = node; 
+		size ++;
 	}
 	
 	public void addToHead () {
@@ -52,6 +53,16 @@ public class Snake {
 		}
 		node.next = head;
 		head = node; 
+		size ++;
+	}
+	
+	public void draw (Graphics g) {
+		if (size <= 0) {
+			return;
+		}
+		for (Node n = head; n != null; n = n.next) {
+			n.draw(g);
+		}
 	}
 	
 	private class Node {

@@ -1,1 +1,1 @@
-﻿This is a J2SE project.
+﻿This is a simple computer game developed with Java.
